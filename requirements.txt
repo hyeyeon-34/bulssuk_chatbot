@@ -1,0 +1,9 @@
+langchain
+langchain-teddynote
+fastapi
+uvicorn
+python-dotenv
+psycopg2
+PyPDF2
+chromadb
+tiktoken

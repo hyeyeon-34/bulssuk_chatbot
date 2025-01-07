@@ -1,0 +1,7 @@
+.env
+.DS_Store
+
+/vdb
+/__pycache__
+/chatbot_logs
+/chatbot
