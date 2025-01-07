@@ -106,7 +106,7 @@ class ChatbotManager:
     # 자리비움 타이머 설정 및 일정 시간 초과시 세션 연결 해제
     async def inactivity_check(self, session_id: str):
         try:
-            await asyncio.sleep(300)  # 5분(300초) 대기
+            await asyncio.sleep(30000)  # 5분(300초) 대기
             websocket, _ = self.active_connections.get(session_id, (None, None))
             if websocket:
                 await websocket.send_json({
